@@ -24,3 +24,7 @@ Thumbs.db
 .idea/
 
 RAG/Notebooks/chroma/
+
+kaggle/testing.ipynb
+kaggle/Pokemon_TCG/pokemon-agent/main.py
+kaggle/Pokemon_TCG/dataset
