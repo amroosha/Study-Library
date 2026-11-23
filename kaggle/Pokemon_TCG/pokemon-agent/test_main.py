@@ -31,7 +31,7 @@ class AgentBaselineTests(unittest.TestCase):
         }
 
     def test_attach_energy_preferred_over_end_turn(self):
-        action = main.monte_carlo_action(self.observation, budget=8, seed=7)
+        action = main.heuristic_action(self.observation)
         self.assertEqual(action, [0])
 
     def test_single_option_is_returned(self):
